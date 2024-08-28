@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
@@ -216,6 +216,7 @@ button {
     padding-top: 14px;
     margin-left: 35px;
     font-size: larger;
+    cursor: pointer;
 }
 
 .pie2 {
@@ -306,7 +307,8 @@ button {
     font-size: large;
     transition-duration: 1s;
 
-
+    background-color: black;
+    color: white;
 }
 
 .bn2:hover {
@@ -315,7 +317,8 @@ button {
     font-size: large;
     transition-duration: 1s;
     border: 2px solid black;
-
+    background-color: black;
+    color: white;
 }
 
 .bn3:hover {
@@ -324,7 +327,8 @@ button {
     font-size: large;
     transition-duration: 1s;
     border: 2px solid black;
-
+    background-color: black;
+    color: white;
 }
 
 .bni2 {
@@ -340,9 +344,11 @@ button {
 .bni2>.bni21 {
     background-image: url(bni2);
     background-repeat: no-repeat;
-    background-size: 98% 600px;
+    background-size: 97% 600px;
     background-repeat: no-repeat;
     margin-left: 50px;
+    width: 97%;
+    height: 600px;
 }
 .bni21 h3{
     background-color: black;
@@ -913,11 +919,12 @@ h5 span1 {
 .go5 h1{
     margin-top: 20px;
     margin-left: 350px;
+    color: white;
 }
 .domain{
     margin-left: 0.1%;
-    border: 0.1px solid;
     border-radius: 20px;
+    border: 0.3px solid  rgb(205, 246, 246);
     margin-top: 100px;
     width: 99.8%;
     height: 350px;
